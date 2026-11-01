@@ -41,14 +41,14 @@ def study_summary(plan: Path) -> tuple[str, int, int, int]:
         match = TOPIC_RE.match(line)
         if not match:
             raise ValueError(
-                f"Formato de tópico inválido em {plan.relative_to(ROOT)}:{number}. "
-                "Use: - [ ] [ ] **ID** — título"
+                f"Invalid topic format in {plan.relative_to(ROOT)}:{number}. "
+                "Use: - [ ] [ ] **ID** — title"
             )
         covered, understood = match.group(1).lower() == "x", match.group(2).lower() == "x"
         if understood and not covered:
             raise ValueError(
-                f"Tópico avaliado sem estar estudado em {plan.relative_to(ROOT)}:{number}. "
-                "Marque a primeira caixa antes da segunda."
+                f"Topic assessed without being marked as studied in {plan.relative_to(ROOT)}:{number}. "
+                "Check the first box before the second."
             )
         total += 1
         studied += int(covered)
@@ -60,7 +60,7 @@ def study_summary(plan: Path) -> tuple[str, int, int, int]:
 def render() -> str:
     plans = sorted(STUDIES.glob("*/plan.md"), key=lambda path: path.parent.name.casefold())
     if not plans:
-        return "_Nenhum estudo cadastrado ainda. Veja `studies/README.md` para adicionar o primeiro._"
+        return "_No studies are registered yet. See `studies/README.md` to add the first one._"
 
     sections: list[str] = []
     for plan in plans:
@@ -69,9 +69,9 @@ def render() -> str:
             "\n".join(
                 [
                     f"### [{title}](studies/{plan.parent.name}/plan.md)",
-                    f"**{total} tópicos propostos** · **{studied} estudados** · **{evaluated} avaliados**",
-                    f"Estudo: `{bar(studied, total)}` {percent(studied, total)}%  ·  "
-                    f"Compreensão: `{bar(evaluated, total)}` {percent(evaluated, total)}%",
+                    f"**{total} proposed topics** · **{studied} studied** · **{evaluated} assessed**",
+                    f"Study: `{bar(studied, total)}` {percent(studied, total)}%  ·  "
+                    f"Understanding: `{bar(evaluated, total)}` {percent(evaluated, total)}%",
                 ]
             )
         )
@@ -81,7 +81,7 @@ def render() -> str:
 def main() -> None:
     text = README.read_text(encoding="utf-8")
     if START not in text or END not in text:
-        raise SystemExit(f"Não encontrei os marcadores do painel em {README.name}.")
+        raise SystemExit(f"Could not find the dashboard markers in {README.name}.")
     before, remainder = text.split(START, maxsplit=1)
     _, after = remainder.split(END, maxsplit=1)
     updated = f"{before}{START}\n{render()}\n{END}{after}"
@@ -90,5 +90,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-\n

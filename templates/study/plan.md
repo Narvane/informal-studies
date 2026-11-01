@@ -1,15 +1,13 @@
-# Nome do estudo
+# Study title
 
-Uma frase sobre o escopo e o objetivo deste estudo.
+A sentence describing the scope and goal of this study.
 
-## Tópicos
+## Topics
 
 <!--
-Mantenha um tópico por linha e um ID estável. As caixas significam:
-  [ ] [ ] = ainda não estudado
-  [x] [ ] = estudado, compreensão ainda não confirmada
-  [x] [x] = estudado e compreensão demonstrada
-Não marque a segunda caixa sem marcar a primeira.
+Keep one topic per line and use a stable ID. The checkboxes mean:
+  [ ] [ ] = not studied yet
+  [x] [ ] = studied, understanding not yet confirmed
+  [x] [x] = studied and understanding demonstrated
+Do not check the second box unless the first box is checked.
 -->
-
-\n

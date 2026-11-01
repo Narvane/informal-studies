@@ -1,28 +1,26 @@
 # informal-studies
 
-Um espaço simples para estudar assuntos com apoio do Codex e acompanhar o progresso em arquivos versionados.
+A simple workspace for studying any subject with Codex and tracking progress in version-controlled files.
 
-## Progresso dos estudos
+## Study progress
 
-Os números abaixo são gerados a partir dos tópicos em `studies/*/plan.md`. As skills de estudo atualizam este painel depois de cada alteração confirmada.
+The figures below are generated from topics in `studies/*/plan.md`. The study skills refresh this dashboard after each approved change.
 
 <!-- STUDY_PROGRESS:START -->
-_Nenhum estudo cadastrado ainda. Veja `studies/README.md` para adicionar o primeiro._
+_No studies are registered yet. See `studies/README.md` to add the first one._
 <!-- STUDY_PROGRESS:END -->
 
-## Como usar
+## How to use
 
-1. Crie uma pasta em `studies/` e um `plan.md` para o assunto. Veja o modelo em `templates/study/plan.md`.
-2. Abra essa pasta no Codex e estude conversando normalmente.
-3. Ao terminar, invoque `$finalizar-sessao` para revisar quais tópicos foram cobertos.
-4. Invoque `$avaliar-compreensao` para verificar o que você consegue explicar e aplicar.
-5. Revise e confirme as alterações propostas. As skills atualizam o plano, registram um resumo da sessão e regeneram este painel.
-6. Ao final de cada skill que alterou arquivos, ela perguntará se você quer fazer commit e push. Só executará essas ações após sua confirmação.
+1. Create a folder under `studies/` and add a `plan.md` for the subject. Use the template at `templates/study/plan.md`.
+2. Open that folder in Codex and study through a normal conversation.
+3. When you finish, invoke `$finish-study-session` to review which topics were covered.
+4. Invoke `$assess-understanding` to check what you can explain and apply.
+5. Review and approve the proposed changes. The skills update the plan, save a session summary, and regenerate this dashboard.
+6. After a skill changes files, it will ask whether you want to commit and push. It will do so only after you confirm.
 
-Para regenerar o painel manualmente, rode `python scripts/update_progress.py` na raiz do repositório.
+To regenerate the dashboard manually, run `python scripts/update_progress.py` from the repository root.
 
-## Estados dos tópicos
+## Topic states
 
-Cada tópico tem duas caixas: a primeira indica que o assunto foi coberto; a segunda indica que a compreensão foi demonstrada na avaliação. Assim, `[x] [ ]` significa estudado, mas ainda sem compreensão confirmada; `[x] [x]` significa estudado e avaliado com compreensão suficiente. Tópicos parcialmente compreendidos ficam sem a segunda marca e recebem orientação para revisão no registro da sessão.
-
-\n
+Each topic has two checkboxes: the first means the topic was covered; the second means sufficient understanding was demonstrated in an assessment. `[x] [ ]` means studied but not yet confirmed; `[x] [x]` means studied and assessed with sufficient understanding. Topics with partial understanding keep the second box unchecked and receive review guidance in the session note.

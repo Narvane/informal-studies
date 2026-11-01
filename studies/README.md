@@ -1,11 +1,11 @@
-# Estudos
+# Studies
 
-Adicione cada assunto em uma pasta própria, por exemplo `studies/aws/plan.md`. Use o modelo em `../templates/study/plan.md` e dê a cada tópico um ID estável e único dentro daquele estudo.
+Add each subject in its own folder, for example `studies/aws/plan.md`. Use the template at `../templates/study/plan.md` and give each topic a stable, unique ID within that study.
 
-Formato dos tópicos (primeira caixa = estudado; segunda = compreensão demonstrada):
+Topic format (first checkbox = studied; second = understanding demonstrated):
 
 ```markdown
-- [ ] [ ] **AWS-001** — Conceito ou habilidade
+- [ ] [ ] **AWS-001** — Concept or skill
 ```
 
-Depois de criar ou editar o plano, rode `python scripts/update_progress.py`. O painel no README da raiz conta apenas pastas de estudo que tenham `plan.md`.
+After creating or editing a plan, run `python scripts/update_progress.py`. The root README dashboard counts only study folders that contain a `plan.md`.
