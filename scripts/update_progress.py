@@ -21,7 +21,7 @@ TOPIC_RE = re.compile(
 def bar(done: int, total: int, width: int = 10) -> str:
     if total == 0:
         return "▱" * width
-    filled = round(done / total * width)
+    filled = max(1, round(done / total * width)) if done else 0
     return "▰" * filled + "▱" * (width - filled)
 
 

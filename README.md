@@ -7,7 +7,9 @@ A simple workspace for studying any subject with Codex and tracking progress in 
 The figures below are generated from topics in `studies/*/plan.md`. The study skills refresh this dashboard after each approved change.
 
 <!-- STUDY_PROGRESS:START -->
-_No studies are registered yet. See `studies/README.md` to add the first one._
+### [AWS Fundamentals and Application Development](studies/aws/plan.md)
+**128 proposed topics** · **1 studied** · **0 assessed**
+Study: `▰▱▱▱▱▱▱▱▱▱` 1%  ·  Understanding: `▱▱▱▱▱▱▱▱▱▱` 0%
 <!-- STUDY_PROGRESS:END -->
 
 ## How to use
