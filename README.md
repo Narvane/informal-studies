@@ -10,6 +10,10 @@ The figures below are generated from topics in `studies/*/plan.md`. The study sk
 ### [AWS Fundamentals and Application Development](studies/aws/plan.md)
 **128 proposed topics** · **1 studied** · **0 assessed**
 Study: `▰▱▱▱▱▱▱▱▱▱` 1%  ·  Understanding: `▱▱▱▱▱▱▱▱▱▱` 0%
+
+### [Design Systems](studies/design-systems/plan.md)
+**74 proposed topics** · **0 studied** · **0 assessed**
+Study: `▱▱▱▱▱▱▱▱▱▱` 0%  ·  Understanding: `▱▱▱▱▱▱▱▱▱▱` 0%
 <!-- STUDY_PROGRESS:END -->
 
 ## How to use
