@@ -16,7 +16,7 @@ A roadmap from cloud concepts and core AWS services through application developm
 - [ ] [ ] **AWS-1.6** — High availability, fault tolerance, scalability and elasticity
 - [ ] [ ] **AWS-1.7** — Well-Architected Framework pillars
 - [ ] [ ] **AWS-1.8** — AWS account structure, organizations and multi-account concepts
-- [ ] [ ] **AWS-1.9** — AWS pricing models, billing and cost optimization concepts
+- [x] [ ] **AWS-1.9** — AWS pricing models, billing and cost optimization concepts
 
 ## 2. Identity, Security and Governance
 
@@ -48,17 +48,17 @@ A roadmap from cloud concepts and core AWS services through application developm
 
 ## 4. Compute and Application Hosting
 
-- [ ] [ ] **AWS-4.1** — Amazon EC2: instances, AMIs and instance types
+- [x] [ ] **AWS-4.1** — Amazon EC2: instances, AMIs and instance types
 - [ ] [ ] **AWS-4.2** — Auto Scaling and Elastic Load Balancing
 - [x] [ ] **AWS-4.3** — AWS Lambda architecture and execution model
 - [ ] [ ] **AWS-4.4** — Lambda handlers, triggers, execution roles and configuration
 - [ ] [ ] **AWS-4.5** — Lambda concurrency, throttling, timeout and memory
 - [ ] [ ] **AWS-4.6** — Lambda retries, failure destinations and dead-letter queues
 - [ ] [ ] **AWS-4.7** — Lambda versions, aliases and deployment concepts
-- [ ] [ ] **AWS-4.8** — Amazon ECS, EKS and container fundamentals
-- [ ] [ ] **AWS-4.9** — AWS Fargate and serverless containers
+- [x] [ ] **AWS-4.8** — Amazon ECS, EKS and container fundamentals
+- [x] [ ] **AWS-4.9** — AWS Fargate and serverless containers
 - [ ] [ ] **AWS-4.10** — AWS Elastic Beanstalk
-- [ ] [ ] **AWS-4.11** — Choosing between EC2, Lambda and containers
+- [x] [ ] **AWS-4.11** — Choosing between EC2, Lambda and containers
 
 ## 5. Storage and Content Delivery
 
