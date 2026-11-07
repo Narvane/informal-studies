@@ -8,12 +8,12 @@ A roadmap from cloud concepts and core AWS services through application developm
 
 ## 1. Cloud Computing and AWS Fundamentals
 
-- [ ] [ ] **AWS-1.1** — Cloud computing models: IaaS, PaaS and SaaS
-- [ ] [ ] **AWS-1.2** — Public, private and hybrid cloud
+- [x] [ ] **AWS-1.1** — Cloud computing models: IaaS, PaaS and SaaS
+- [x] [ ] **AWS-1.2** — Public, private and hybrid cloud
 - [ ] [ ] **AWS-1.3** — AWS global infrastructure: Regions, Availability Zones and edge locations
 - [ ] [ ] **AWS-1.4** — Shared responsibility model
 - [ ] [ ] **AWS-1.5** — AWS service categories and architectural principles
-- [ ] [ ] **AWS-1.6** — High availability, fault tolerance, scalability and elasticity
+- [x] [ ] **AWS-1.6** — High availability, fault tolerance, scalability and elasticity
 - [ ] [ ] **AWS-1.7** — Well-Architected Framework pillars
 - [ ] [ ] **AWS-1.8** — AWS account structure, organizations and multi-account concepts
 - [x] [ ] **AWS-1.9** — AWS pricing models, billing and cost optimization concepts
