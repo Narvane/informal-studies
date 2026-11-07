@@ -14,6 +14,10 @@ Study: `▰▱▱▱▱▱▱▱▱▱` 7%  ·  Understanding: `▱▱▱▱▱�
 ### [Design Systems](studies/design-systems/plan.md)
 **74 proposed topics** · **0 studied** · **0 assessed**
 Study: `▱▱▱▱▱▱▱▱▱▱` 0%  ·  Understanding: `▱▱▱▱▱▱▱▱▱▱` 0%
+
+### [Rhetoric and Expression of Thought](studies/retorica-e-expressao-do-pensamento/plan.md)
+**35 proposed topics** · **0 studied** · **0 assessed**
+Study: `▱▱▱▱▱▱▱▱▱▱` 0%  ·  Understanding: `▱▱▱▱▱▱▱▱▱▱` 0%
 <!-- STUDY_PROGRESS:END -->
 
 ## How to use
